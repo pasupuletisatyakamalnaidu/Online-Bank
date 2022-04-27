@@ -1,0 +1,15 @@
+create database niteesh;
+use  niteesh;
+drop table UserCreation;
+create table UserCreation(name varchar(20),dob varchar(50),email varchar(50),address varchar(20),userid varchar(20),pwd varchar(20),balance varchar(20));
+select * from UserCreation;
+create database spring;
+use spring;
+select * from users;
+create table transactions(userid varchar(20),optionss varchar(50),amount varchar(20),balance varchar(20), date TIMESTAMP);
+select * from transactions;
+truncate transactions;
+truncate creditcard;
+create table creditCard(Userid varchar(20),cardNumber varchar(20),cvv varchar(20));
+insert into creditcard values("5233","234567","112");
+select * from creditcard;
